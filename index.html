@@ -12,6 +12,11 @@
 	<div class="opening">
 		<h1>Dear Hani,</h1>
 	</div>
+
+	<div class="brkN">
+		<input type="image" onclick="show()" src="https://images.squarespace-cdn.com/content/v1/585b94191b631be8350e3ebe/1583612299341-WF6UU365V813XTK8Z4GB/duck.gif">
+		<h5>Click Me</h5>
+	</div>
 	
 	<div class="container" id="myDIV" style="display:none">
 		
@@ -47,24 +52,17 @@
 		</div>
 		
 	</div>
-	
-	
-	<div class="brkN">
-	<input type="image" onclick="show()" src="https://images.squarespace-cdn.com/content/v1/585b94191b631be8350e3ebe/1583612299341-WF6UU365V813XTK8Z4GB/duck.gif">
-		<h5>Click Me</h5>
-	</div>
 
 </body>
 
 <script>
 	function show() {
-	var x = document.getElementById("myDIV");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
-}
+			var x = document.getElementById("myDIV");
+			x.style.display = "block";
+			
+			// optional: hide the duck after click
+			document.querySelector(".brkN").style.display = "none";
+		}
 </script>
 
 </html>
