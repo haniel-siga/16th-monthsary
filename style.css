@@ -165,5 +165,6 @@ cursor: pointer;
 
 .brkN h5 {
   margin-top: 10px;
-  font-weight: 5px;
+  font-weight: 10px;
+	font-size: 10px;
 }
