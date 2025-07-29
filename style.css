@@ -12,8 +12,8 @@
         }
 
 .opening {
-	padding: 15px;
-	text-align: center;
+  text-align: center;
+  margin-top: 40px;
 }
 
 h1 {
@@ -148,5 +148,17 @@ input[type="image"]:hover {
 }
 
 .brkN {
-	text-align: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.brkN img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.brkN h5 {
+  margin-top: 10px;
+  font-weight: normal;
 }
