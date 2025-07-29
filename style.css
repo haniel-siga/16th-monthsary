@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins');
 
  body {
-            background: #c5b4e3;
-            min-height: 100vh;
-			width: 100%;
-            margin: 0;
-            font-family: 'Quicksand', Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        background: #c5b4e3;
+        min-height: auto;
+	width: 100%;
+        margin: 0;
+        font-family: 'Quicksand', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         }
 
 .opening {
@@ -24,7 +24,7 @@ h1 {
 .container {
             background: #fdf6ec;
             box-shadow: 0 8px 32px rgba(0,0,0,0.08);
-			border: 5px solid #3a3b3c;
+		border: 5px solid #3a3b3c;
 			border-radius: 10px;
 			padding: 12px;
             width: 80vw;
