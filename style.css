@@ -14,11 +14,11 @@
         }
 
 .opening {
+  height: 100vh; /* Full height of screen */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Full screen height */
+  justify-content: center; /* Vertical centering */
+  align-items: center;     /* Horizontal centering */
   text-align: center;
 }
 
@@ -155,16 +155,15 @@ input[type="image"]:hover {
 
 .brkN {
   margin-top: 20px;
-  text-align: center;
 }
 
-.brkN img {
-  width: 150px;
+.brkN img, .brkN input {
+  width: 100px;
   height: auto;
-  cursor: pointer;
+cursor: pointer;
 }
 
 .brkN h5 {
   margin-top: 10px;
-  font-weight: normal;
+  font-weight: 5px;
 }
